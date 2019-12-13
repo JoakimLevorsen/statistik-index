@@ -1,9 +1,5 @@
 export default [
 `
-In a cola tasting experiment there are 4 glasses with cola. Each glass contains either regular
-cola or light cola. You know that there are two glasses of each. A taster randomly chooses two
-glasses.
-`,`
 What is the probability that she gets regular cola in one of the glasses and light cola in the
 other?
 1  1/4
@@ -50,7 +46,7 @@ n*p*(1-p)
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 4
 3
-`,`
+Exercise II
 10 women measured their morning temperature on both July 1st and December 1st. From
 the measurements, one would like to investigate whether there is a difference in the morning
 temperature for women in the summer compared to the winter. It can be assumed that the
@@ -85,7 +81,7 @@ This derived from the definition of the p-value in Definition 3.22.
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 6
 5
-`,`
+Exercise III
 A company has purchased a new 3D printer technology and they want to investigate whether it
 can be used to make components that are durable enough to be included in a specific product.
 An experiment has been carried out where components, printed with the new technology, have
@@ -197,7 +193,7 @@ there is a difference between the medians, but at α = 10% we can, so answer 2 i
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 10
 9
-`,`
+Exercise IV
 Assume that X is normally distributed with mean 10 and variance 4, Y is normally distributed
 with mean 20 and variance 25, and X and Y are independent.
 `,`
@@ -267,7 +263,7 @@ sqrt(10^4 * 4 + 16 * 20^2 * 25)
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 12
 11
-`,`
+Exercise V
 The association between pressure (p) and depth (h) in an open liquid container may be described
 theoretically by the equation
 p = p0 + ρgh ,
@@ -365,7 +361,7 @@ g
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 16
 15
-`,`
+Exercise VI
 A sample was taken with independent observations from a normally distributed population.
 One would like to test the hypothesis that the mean is zero against the alternative, that it is
 different from zero. The test statistic for the test follows a t-distribution. A p-value of 0.001
@@ -404,7 +400,7 @@ qt(1 - 0.001/2, df=19)
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 18
 17
-`,`
+Exercise VII
 The Danish Veterinary and Food Administration wants to reduce the proportion of resistant
 bacteria in pigs intestinal flora, as they pose a human risk. qPCR is one microbiological method
 to count the number of specific genes in a faeces sample. Below is the count of three genes:
@@ -508,7 +504,7 @@ from 0.035 in the first sample to 0.023 in the fourth sample. So answer is corre
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 22
 22
-`,`
+Exercise VIII
 The IQ of a randomly selected individual is modeled by a normally distributed random variable.
 50% of the population have an IQ over 100 (and 50% have an IQ below 100). Suppose 68% of
 the population have an IQ in the range of 85-115.
@@ -554,7 +550,7 @@ we can find the proportion of people with IQ > 140 as:
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 25
 24
-`,`
+Exercise IX
 The data below have been collected from two groups:
 Group 1: 10.5, 9.3, 10.7, 10.8, 11.2
 Group 2: 8.9, 9.5, 10.2, 9.8, 10.3
@@ -678,7 +674,7 @@ power.t.test(delta=1, sd=sqrt(varp), sig.level=0.01, power=0.99)
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 29
 28
-`,`
+Exercise X
 How much clothes a person wears (the clothing level) has a large influence on the level of
 comfort in offices. In the table below samples from three rooms of the average clothing level
 (on a scale 0 to 1) are presented:
@@ -805,7 +801,7 @@ can also be concluded to be an outlier from the boxplot.
 ------------------------------------ FACIT-END ------------------------------------
 Continue on page 33
 32
-`,`
+Exercise XI
 The following sample has been sorted:
 10, 25, 25, 36, 37, 41, 54, 64, 68, 83
 `,`
@@ -832,4 +828,5 @@ What is the sample variance?
 var(x)
 ## [1] 510.6778
 ------------------------------------ FACIT-END ------------------------------------
-`]
+The exam is finished. Have a great summer!
+34`]

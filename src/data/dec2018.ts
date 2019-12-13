@@ -1,10 +1,4 @@
 export default [`
-In the analysis of a single sample, 10 measurements are assumed to be independent and sampled
-from a normal distribution with mean µ and variance σ
-2
-. The sample mean is ¯x = 0.57, while
-the sample standard deviation is s = 0.32.
-`,`
 Which of the following is a standard 99% confidence interval for the theoretical standard deviation σ?
 1*  [0.20, 0.73]
 2  0.57 ± 1.96 · 0.32
@@ -19,7 +13,7 @@ sqrt( (10-1)*0.32^2/qchisq(0.005, df = 9) )
 ## [1] 0.7288361
 which result in the interval [0.20, 0.73] when rounded to two decimals.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise II
 2
 We would like to determine the median of X1/X2, when X1 and X2 are independent stochastic
 variables, which are both normal distributed with mean 1 and variance 1. The distribution
@@ -54,7 +48,7 @@ The estimate is the average of the simulated medians, i.e. the estimated median 
 left and right endpoints of the 95% confidence interval are, respectively, the 2.5% and 97.5%
 quantiles of the simulated medians, so the confidence interval becomes [0.5949, 0.6443].
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise III
 A normal distributed population has mean µ = 100 and standard deviation σ = 15.
 `,`
 In a random draw, what is the probability of obtaining an observation below 90?
@@ -172,7 +166,7 @@ is χ
 2
 -distributed with n − 1 degrees of freedom. It is stated in Equation 3-17.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise IV
 10 people have had their daily energy intake measured (in kJ). The measurements in the sample
 are shown in the table below:
 Energy intake (kJ): 8230 5470 7515 5260 6390 6180 6515 6805 7515 5640
@@ -243,7 +237,7 @@ t.test(x, mu=7725)
 ## mean of x
 ## 6552
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise V
 A married couple visits the same restaurant several times a month. Typically, they order a
 glass of red wine with their food. One day, they decide to complain to the owner. They believe
 that one of the waiters pours less wine into the glass than what they pay for. Consequently,
@@ -356,7 +350,7 @@ x¯C = 136 mL
 from which we can see that A is significantly different from B and C, since their differences are
 higher than 7 mL, and that there is no significant difference between B and C.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise VI
 A spring is characterized by its spring constant, k. When a spring is stretched, Hooke’s law
 states that
 F = −k · x ,
@@ -498,7 +492,7 @@ are often correlated. When is this correlation zero?
 According to Theorem 5.8 Equation 5-29, the covariance, and hence the correlation, between
 the intercept and the slope is zero if the sample mean of the explanatory variable, ¯x, is zero.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise VII
 In order to investigate whether data from a single sample is log-normal distributed, one could
 compare the data to a normal distribution using a qq-plot. If the data is log-normal distributed
 there will (typically) be fewer small values and more large values in the data, compared to a
@@ -1251,7 +1245,7 @@ Normal Q−Q Plot
 Theoretical Quantiles
 Sample Quantiles
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise VIII
 17
 Histogram 1
 Density
@@ -1308,7 +1302,7 @@ Thus, based on Histogram 2 (where there isn’t even any values in the data whic
 as 1), option 3 is the only possible choice. (This may be further verified by considering the
 means of some of the other distributions as well).
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise IX
 Two groups of rats are put on a diet while growing up, and their weight gain between day 28
 and day 84 is recorded. 10 rats are put on a diet with a high protein content, while 7 rats are
 put on a diet with a low protein content. The collected data (weight gain in grams) is shown
@@ -1369,7 +1363,7 @@ qt(0.975, df = 13.7)
 we conclude that the difference is not significant. This could also be concluded by writing in
 the values in R and using the t.test() function.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise X
 Statistics Denmark provides data related to Denmark at www.statistikbanken.dk, among it
 data on traffic accidents. The following count data is taken from there:
 20
@@ -1498,7 +1492,7 @@ x50-100km/h
 n50-100km/h
 = 0.852
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise XI
 Below is a sample of 20 independent observations, read into R in the vector x:
 x <-
 c(13, 12, 9, 7, 12, 15, 12, 10, 6, 13, 7, 13, 19, 12, 6, 4, 15, 16, 11, 18)
@@ -1559,7 +1553,7 @@ q0.025 =
 2
 = 13.075
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise XII
 During the preparation for a small festival, the toilet facilities are taken under consideration.
 Mobile toilets need to be ordered such that the capacity is sufficient, but not too high, since
 will lead to more cleaning and higher costs.
@@ -1609,7 +1603,7 @@ qexp(0.98, rate = 10/1500) / 20
 ## [1] 29.34017
 Thus, ordering 30 toilets or more ensures that the probability in focus stays below 2%.
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise XIII
 Below, there’s a small sample with 5 independent observations:
 Observations: 11.8071067 -1.7913888 -9.1872410 -4.4860901 -0.2324924
 `,`
@@ -1635,7 +1629,7 @@ a t-distribution with 1 degree of freedom (like normal distributions, t distribu
 positive and negative values).
 28
 ------------------------------------ FACIT-END ------------------------------------
-`,`
+Exercise XIV
 A sample was collected, and the following summary statistics were calculated:
 Statistic Value
 x¯ 5.69
