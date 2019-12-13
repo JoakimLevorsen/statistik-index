@@ -484,21 +484,7 @@ Continues on page 21
 `,`
 In this question, the relationship between the electricity generation with coal (Column 3) and
 the CO2-intensity at high wind electricity generation (Column 2) is investigated.
-To visualize the relation the following scatter plot with the observations is created:
-●
-● ●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
+To visualize the relation the following scatter plot with the observations is created: ●
 800 1000 1200 1400 1600
 200 220 240 260 280 300 320
 Average for days with high wind electricity

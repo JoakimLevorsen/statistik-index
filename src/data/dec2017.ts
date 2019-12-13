@@ -1152,11 +1152,6 @@ amount of precipitation on 30 days without cloud seeding, denoted Yj
 , (j = 1, 2, . . . , 30).
 Measurements were only taken on days where there was sufficient humidity in the air to make
 the experiment relevant. Data from the experiment is shown in the figure below.
-●
-●
-●
-●
-●
 4
 8
 12

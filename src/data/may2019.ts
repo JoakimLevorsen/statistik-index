@@ -753,40 +753,12 @@ Histogram af residualer
 Residualer
 Frequency
 −0.4 −0.2 0.0 0.2
-0 2 4 6 8 10 12
-●
-●
-● ●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-● ●
-●
-●
-●
-●
-●
-●
-●
-●
-●
-●●
+0 2 4 6 8 10 12 ● ●●
 −2 −1 0 1 2
 −0.3 −0.2 −0.1 0.0 0.1 0.2
 Normal Q−Q Plot
 Theoretical Quantiles
 Sample Quantiles
-●
 −0.3 −0.2 −0.1 0.0 0.1 0.2
 What can rightly be judged based on these plot from the books definition of outliers?
 1  That it is clear that the distribution of residuals is left-skewed.
