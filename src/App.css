@@ -40,7 +40,7 @@
 .Exercise {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px;
   flex: 1;
   min-width: 300px;
   border: 1px solid black;
@@ -71,4 +71,9 @@
 
 .term:hover {
   opacity: 0.5;
+}
+
+.brødTekst {
+  text-align: justify;
+  padding: 10px;
 }

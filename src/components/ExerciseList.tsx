@@ -13,7 +13,7 @@ export default class ExerciseList extends React.Component<Props> {
           <div>
             {v.exercise} opg{v.index + 1}
           </div>
-          <div>{v.text}</div>
+          <div className="brødTekst">{v.text}</div>
         </div>
       ))}
     </div>
