@@ -1,20 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import SearchBar from './components/SearchBar';
-import ExerciseList from './components/ExerciseList';
+import React from "react";
+import "./App.css";
+import SearchBar from "./components/SearchBar";
+import ExerciseList from "./components/ExerciseList";
 
 interface State {
-  searchTerms: string[]
+  searchTerms: string[];
 }
 
 export default class App extends React.Component<{}, State> {
-  state: State = {searchTerms: []}
-  public render = () =>
-   (
+  state: State = { searchTerms: [] };
+  public render = () => (
     <div className="App">
-      <SearchBar searchChanged={searchTerms => this.setState({searchTerms})}/>
-        <ExerciseList searchTerms={this.state.searchTerms}/>
+      <SearchBar
+        searchChanged={searchTerms => this.setState({ searchTerms })}
+      />
+      <ExerciseList searchTerms={this.state.searchTerms} />
     </div>
   );
 }

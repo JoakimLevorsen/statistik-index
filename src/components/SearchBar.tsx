@@ -33,23 +33,23 @@ export default class SearchBar extends React.Component<Props, State> {
           }
         }}
       />
-        {this.state.terms.map((t, i) => (
-          <div
+      {this.state.terms.map((t, i) => (
+        <div
           className="term"
-            key={i}
-            onClick={() => {
-              let a = this.state.terms;
-              a.splice(i, 1);
-              this.setState({ terms: a });
-              this.props.searchChanged([
-                this.state.currentTerm,
-                ...this.state.terms
-              ]);
-            }}
-          >
-            {t}
-          </div>
-        ))}
+          key={i}
+          onClick={() => {
+            let a = this.state.terms;
+            a.splice(i, 1);
+            this.setState({ terms: a });
+            this.props.searchChanged([
+              this.state.currentTerm,
+              ...this.state.terms
+            ]);
+          }}
+        >
+          {t}
+        </div>
+      ))}
     </div>
   );
 }
