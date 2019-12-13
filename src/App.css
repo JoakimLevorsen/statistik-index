@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.Exercise {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  flex: 1;
+  min-width: 300px;
+  border: 1px solid black;
+}
+
+.ExerciseList {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.SearchBar {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.SearchBar > input {
+  flex: 1;
+}
+
+.term {
+  flex: 0;
+  padding: 20px 10px;
+  background: black;
+  color: white;
+}
+
+.term:hover {
+  opacity: 0.5;
+}
